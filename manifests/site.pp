@@ -4,4 +4,7 @@ node default {
     content => 'This is a README by JCartagena',
     owner => 'root',
   }
+  file {'/root/README':
+    owner => 'root',
+  }  
 }
